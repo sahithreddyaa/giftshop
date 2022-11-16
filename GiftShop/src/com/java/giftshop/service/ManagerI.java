@@ -1,6 +1,6 @@
 package com.java.giftshop.service;
 
-public interface ManagerOperations {
+public interface ManagerI {
 	void menu();
 	void makeShipping();
 	void add_gift();

@@ -1,6 +1,6 @@
 package com.java.giftshop.service;
 
-public class Customer implements User,CustomerOperations{
+public class Customer{
 	private Integer id;
 	private String username;
 	private String password;
@@ -68,69 +68,6 @@ public class Customer implements User,CustomerOperations{
 		this.address = address;
 	}
 
-	
-	
-	
-	
-	public void makeOrder() {
-		
-		
-	}
-
-	public void payment() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void getInfo() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void login() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void createCustomerAccount() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void createStaffAccount() {
-		// TODO Auto-generated method stub
-		
-	}
-
-
-
-	@Override
-	public void deleteStaff(Integer sid) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public int deleteCustomer(Integer id) {
-		return id;
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void listOfCustomers() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void listOfStaff() {
-		// TODO Auto-generated method stub
-		
-	}
 
 
 

@@ -1,6 +1,6 @@
 package com.java.giftshop.service;
 
-public class Staff implements User{
+public class Staff{
 	private Integer sid;
 	private String username;
 	private String password;
@@ -53,42 +53,6 @@ public class Staff implements User{
 	}
 	
 	
-	
-	
-	@Override
-	public void createCustomerAccount() {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public void createStaffAccount() {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public void login() {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public int deleteCustomer(Integer id) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-	@Override
-	public void deleteStaff(Integer sid) {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public void listOfCustomers() {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public void listOfStaff() {
-		// TODO Auto-generated method stub
-		
-	}
+
 	
 }
